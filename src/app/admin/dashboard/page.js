@@ -83,7 +83,7 @@ export default function AdminDashboard() {
             <div className="flex items-center gap-4">
               <Link 
                 href="/"
-                className="text-gray-600 hover:text-blue-600 text-sm"
+                className="text-gray-700 font-medium hover:text-blue-600 text-sm"
               >
                 View Website →
               </Link>
@@ -152,7 +152,7 @@ function OverviewTab({ stats }) {
             <Calendar className="w-10 h-10 text-blue-600" />
             <span className="text-3xl font-bold">{stats.events}</span>
           </div>
-          <h3 className="text-gray-600 font-semibold">Events</h3>
+          <h3 className="text-gray-700 font-medium font-semibold">Events</h3>
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
@@ -160,7 +160,7 @@ function OverviewTab({ stats }) {
             <Newspaper className="w-10 h-10 text-green-600" />
             <span className="text-3xl font-bold">{stats.news}</span>
           </div>
-          <h3 className="text-gray-600 font-semibold">News Articles</h3>
+          <h3 className="text-gray-700 font-medium font-semibold">News Articles</h3>
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
@@ -168,7 +168,7 @@ function OverviewTab({ stats }) {
             <Users className="w-10 h-10 text-purple-600" />
             <span className="text-3xl font-bold">{stats.staff}</span>
           </div>
-          <h3 className="text-gray-600 font-semibold">Staff Members</h3>
+          <h3 className="text-gray-700 font-medium font-semibold">Staff Members</h3>
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
@@ -176,7 +176,7 @@ function OverviewTab({ stats }) {
             <ImageIcon className="w-10 h-10 text-pink-600" />
             <span className="text-3xl font-bold">{stats.gallery}</span>
           </div>
-          <h3 className="text-gray-600 font-semibold">Gallery Items</h3>
+          <h3 className="text-gray-700 font-medium font-semibold">Gallery Items</h3>
         </div>
       </div>
 
@@ -453,7 +453,7 @@ function NewsTab() {
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
       <h2 className="text-2xl font-bold mb-4">Manage News</h2>
-      <p className="text-gray-600">News management coming soon...</p>
+      <p className="text-gray-700 font-medium">News management coming soon...</p>
     </div>
   )
 }
@@ -462,7 +462,7 @@ function StaffTab() {
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
       <h2 className="text-2xl font-bold mb-4">Manage Staff</h2>
-      <p className="text-gray-600">Staff management coming soon...</p>
+      <p className="text-gray-700 font-medium">Staff management coming soon...</p>
     </div>
   )
 }
@@ -471,7 +471,7 @@ function GalleryTab() {
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
       <h2 className="text-2xl font-bold mb-4">Manage Gallery</h2>
-      <p className="text-gray-600">Gallery management coming soon...</p>
+      <p className="text-gray-700 font-medium">Gallery management coming soon...</p>
     </div>
   )
 }

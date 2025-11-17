@@ -47,7 +47,7 @@ export default function Events() {
       <section className="py-8 bg-gray-50 sticky top-0 z-10 shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4 flex-wrap">
-            <Filter className="text-gray-600" />
+            <Filter className="text-gray-700 font-medium" />
             <span className="font-semibold">Filter by:</span>
             {categories.map((category) => (
               <button
@@ -101,7 +101,7 @@ export default function Events() {
                     </span>
 
                     <h3 className="text-xl font-bold mb-3">{event.title}</h3>
-                    <p className="text-gray-600 mb-4 line-clamp-2">{event.description}</p>
+                    <p className="text-gray-700 font-medium mb-4 line-clamp-2">{event.description}</p>
 
                     {/* Event Info */}
                     <div className="space-y-2">
@@ -148,7 +148,7 @@ export default function Events() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Want to see all events in a calendar?</h2>
-          <p className="text-gray-600 mb-6">Download our school calendar to stay updated</p>
+          <p className="text-gray-700 font-medium mb-6">Download our school calendar to stay updated</p>
           <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
             Download Calendar
           </button>

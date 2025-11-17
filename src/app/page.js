@@ -19,7 +19,7 @@ export default function Home() {
       .select('*')
       .order('event_date', { ascending: true })
       .limit(3)
-    
+
     setEvents(data || [])
   }
 
@@ -30,45 +30,45 @@ export default function Home() {
       .eq('published', true)
       .order('created_at', { descending: true })
       .limit(3)
-    
+
     setNews(data || [])
   }
 
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+      <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-6">
-            Welcome to School Name
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 drop-shadow-lg">
+            Welcome to Excellence Academy
           </h1>
-          <p className="text-xl mb-8">
-            Excellence in Education Since 1990
+          <p className="text-xl md:text-2xl mb-8 font-medium drop-shadow">
+            Inspiring Minds, Shaping Futures Since 1990
           </p>
-          <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
-            Learn More
+          <button className="bg-white text-blue-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition shadow-xl hover:shadow-2xl hover:scale-105 transform">
+            Discover More
           </button>
         </div>
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
+            <div className="text-center bg-white p-8 rounded-xl shadow-lg">
               <Users className="w-16 h-16 mx-auto text-blue-600 mb-4" />
-              <h3 className="text-4xl font-bold mb-2">1000+</h3>
-              <p className="text-gray-600">Students</p>
+              <h3 className="text-5xl font-bold mb-2 text-gray-900">1000+</h3>
+              <p className="text-gray-700 font-semibold text-lg">Students</p>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-white p-8 rounded-xl shadow-lg">
               <BookOpen className="w-16 h-16 mx-auto text-blue-600 mb-4" />
-              <h3 className="text-4xl font-bold mb-2">50+</h3>
-              <p className="text-gray-600">Teachers</p>
+              <h3 className="text-5xl font-bold mb-2 text-gray-900">50+</h3>
+              <p className="text-gray-700 font-semibold text-lg">Teachers</p>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-white p-8 rounded-xl shadow-lg">
               <Calendar className="w-16 h-16 mx-auto text-blue-600 mb-4" />
-              <h3 className="text-4xl font-bold mb-2">30+</h3>
-              <p className="text-gray-600">Years</p>
+              <h3 className="text-5xl font-bold mb-2 text-gray-900">30+</h3>
+              <p className="text-gray-700 font-semibold text-lg">Years</p>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function Home() {
             {events.map((event) => (
               <div key={event.id} className="border rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold mb-2">{event.title}</h3>
-                <p className="text-gray-600 mb-4">{event.description}</p>
+                <p className="text-gray-700 font-medium mb-4">{event.description}</p>
                 <p className="text-blue-600 font-semibold">
                   {new Date(event.event_date).toLocaleDateString()}
                 </p>
@@ -100,7 +100,7 @@ export default function Home() {
             {news.map((item) => (
               <div key={item.id} className="bg-white rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                <p className="text-gray-600 mb-4">{item.excerpt}</p>
+                <p className="text-gray-700 font-medium mb-4">{item.excerpt}</p>
                 <a href="#" className="text-blue-600 font-semibold hover:underline">
                   Read More →
                 </a>

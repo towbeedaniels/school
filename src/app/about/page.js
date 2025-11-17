@@ -37,7 +37,7 @@ export default function About() {
           <div className="text-center p-8 border rounded-lg hover:shadow-lg transition">
             <Target className="w-16 h-16 mx-auto text-blue-600 mb-4" />
             <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
-            <p className="text-gray-600">
+            <p className="text-gray-700 font-medium">
               To provide quality education that empowers students to become 
               responsible, creative, and critical thinkers prepared for the 
               challenges of tomorrow.
@@ -48,7 +48,7 @@ export default function About() {
           <div className="text-center p-8 border rounded-lg hover:shadow-lg transition">
             <Eye className="w-16 h-16 mx-auto text-blue-600 mb-4" />
             <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
-            <p className="text-gray-600">
+            <p className="text-gray-700 font-medium">
               To be a leading educational institution recognized for academic 
               excellence, character development, and innovative teaching 
               methodologies.
@@ -59,7 +59,7 @@ export default function About() {
           <div className="text-center p-8 border rounded-lg hover:shadow-lg transition">
             <Award className="w-16 h-16 mx-auto text-blue-600 mb-4" />
             <h3 className="text-2xl font-bold mb-4">Our Values</h3>
-            <p className="text-gray-600">
+            <p className="text-gray-700 font-medium">
               Integrity, Respect, Excellence, Innovation, and Community. 
               These core values guide everything we do and shape the character 
               of our students.
@@ -78,7 +78,7 @@ export default function About() {
                 <div className="flex-shrink-0 w-24 font-bold text-blue-600">1990</div>
                 <div>
                   <h4 className="font-bold text-xl mb-2">Foundation</h4>
-                  <p className="text-gray-600">
+                  <p className="text-gray-700 font-medium">
                     School established with 100 students and 10 teachers.
                   </p>
                 </div>
@@ -88,7 +88,7 @@ export default function About() {
                 <div className="flex-shrink-0 w-24 font-bold text-blue-600">2000</div>
                 <div>
                   <h4 className="font-bold text-xl mb-2">Expansion</h4>
-                  <p className="text-gray-600">
+                  <p className="text-gray-700 font-medium">
                     New campus building opened, student enrollment reaches 500.
                   </p>
                 </div>
@@ -98,7 +98,7 @@ export default function About() {
                 <div className="flex-shrink-0 w-24 font-bold text-blue-600">2010</div>
                 <div>
                   <h4 className="font-bold text-xl mb-2">Technology Integration</h4>
-                  <p className="text-gray-600">
+                  <p className="text-gray-700 font-medium">
                     Smart classrooms and computer labs introduced.
                   </p>
                 </div>
@@ -108,7 +108,7 @@ export default function About() {
                 <div className="flex-shrink-0 w-24 font-bold text-blue-600">2024</div>
                 <div>
                   <h4 className="font-bold text-xl mb-2">Present Day</h4>
-                  <p className="text-gray-600">
+                  <p className="text-gray-700 font-medium">
                     Over 1000 students, 50+ faculty members, and state-of-the-art facilities.
                   </p>
                 </div>
@@ -140,7 +140,7 @@ export default function About() {
                 </div>
                 <h3 className="text-xl font-bold mb-1">{member.name}</h3>
                 <p className="text-blue-600 font-semibold mb-2">{member.position}</p>
-                <p className="text-gray-600 text-sm mb-2">{member.department}</p>
+                <p className="text-gray-700 font-medium text-sm mb-2">{member.department}</p>
                 {member.email && (
                   <a href={`mailto:${member.email}`} className="text-sm text-gray-500 hover:text-blue-600">
                     {member.email}
@@ -159,19 +159,19 @@ export default function About() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-5xl font-bold text-blue-600 mb-2">95%</div>
-              <p className="text-gray-600">College Acceptance Rate</p>
+              <p className="text-gray-700 font-medium">College Acceptance Rate</p>
             </div>
             <div>
               <div className="text-5xl font-bold text-blue-600 mb-2">30+</div>
-              <p className="text-gray-600">National Awards</p>
+              <p className="text-gray-700 font-medium">National Awards</p>
             </div>
             <div>
               <div className="text-5xl font-bold text-blue-600 mb-2">100%</div>
-              <p className="text-gray-600">Qualified Teachers</p>
+              <p className="text-gray-700 font-medium">Qualified Teachers</p>
             </div>
             <div>
               <div className="text-5xl font-bold text-blue-600 mb-2">20+</div>
-              <p className="text-gray-600">Sports Championships</p>
+              <p className="text-gray-700 font-medium">Sports Championships</p>
             </div>
           </div>
         </div>

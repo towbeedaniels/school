@@ -41,7 +41,7 @@ export default function Contact() {
             {/* Contact Information */}
             <div>
               <h2 className="text-3xl font-bold mb-8">Get In Touch</h2>
-              
+
               <div className="space-y-6">
                 {/* Address */}
                 <div className="flex gap-4">
@@ -52,7 +52,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Address</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700 font-medium">
                       123 Education Street<br />
                       Learning City, ST 12345<br />
                       United States
@@ -69,7 +69,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Phone</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700 font-medium">
                       Main: +1 (234) 567-8900<br />
                       Admissions: +1 (234) 567-8901<br />
                       Fax: +1 (234) 567-8902
@@ -86,7 +86,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Email</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700 font-medium">
                       General: info@school.com<br />
                       Admissions: admissions@school.com<br />
                       Support: support@school.com
@@ -103,7 +103,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Office Hours</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700 font-medium">
                       Monday - Friday: 8:00 AM - 4:00 PM<br />
                       Saturday: 9:00 AM - 12:00 PM<br />
                       Sunday: Closed
@@ -131,7 +131,7 @@ export default function Contact() {
 
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">
+                  <label className="block text-gray-800 font-bold mb-2">
                     Your Name *
                   </label>
                   <input
@@ -140,13 +140,13 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-600 focus:ring-4 focus:ring-blue-100 text-gray-900 font-semibold placeholder-gray-500"
                     placeholder="John Doe"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">
+                  <label className="block text-gray-800 font-bold mb-2">
                     Email Address *
                   </label>
                   <input
@@ -155,13 +155,13 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-600 focus:ring-4 focus:ring-blue-100 text-gray-900 font-semibold placeholder-gray-500"
                     placeholder="john@example.com"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">
+                  <label className="block text-gray-800 font-bold mb-2">
                     Subject *
                   </label>
                   <input
@@ -170,13 +170,13 @@ export default function Contact() {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-600 focus:ring-4 focus:ring-blue-100 text-gray-900 font-semibold placeholder-gray-500"
                     placeholder="How can we help?"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">
+                  <label className="block text-gray-800 font-bold mb-2">
                     Message *
                   </label>
                   <textarea
@@ -185,14 +185,14 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     rows="6"
-                    className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-600 focus:ring-4 focus:ring-blue-100 text-gray-900 font-semibold placeholder-gray-500"
                     placeholder="Your message here..."
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2"
+                  className="w-full bg-blue-600 text-white py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
                 >
                   <Send className="w-5 h-5" />
                   Send Message
@@ -207,7 +207,7 @@ export default function Contact() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
-          
+
           <div className="space-y-4">
             {[
               {
@@ -231,7 +231,7 @@ export default function Contact() {
                 <summary className="font-bold cursor-pointer text-lg">
                   {faq.q}
                 </summary>
-                <p className="mt-4 text-gray-600">{faq.a}</p>
+                <p className="mt-4 text-gray-700 font-medium">{faq.a}</p>
               </details>
             ))}
           </div>

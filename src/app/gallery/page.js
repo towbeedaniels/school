@@ -143,7 +143,7 @@ export default function Gallery() {
         <section className="py-16 bg-gray-50">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h3 className="text-2xl font-bold mb-4">Add Images to Gallery</h3>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-700 font-medium mb-6">
               To populate the gallery, add images to the 'gallery' table in Supabase:
             </p>
             <div className="bg-gray-800 text-green-400 p-4 rounded-lg text-left text-sm overflow-x-auto">

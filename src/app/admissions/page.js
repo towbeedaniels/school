@@ -64,7 +64,7 @@ export default function Admissions() {
                 1
               </div>
               <h3 className="text-xl font-bold mb-2">Inquiry</h3>
-              <p className="text-gray-600">Submit an inquiry form or schedule a campus visit</p>
+              <p className="text-gray-700 font-medium">Submit an inquiry form or schedule a campus visit</p>
             </div>
 
             {/* Step 2 */}
@@ -73,7 +73,7 @@ export default function Admissions() {
                 2
               </div>
               <h3 className="text-xl font-bold mb-2">Application</h3>
-              <p className="text-gray-600">Complete and submit the admission application</p>
+              <p className="text-gray-700 font-medium">Complete and submit the admission application</p>
             </div>
 
             {/* Step 3 */}
@@ -82,7 +82,7 @@ export default function Admissions() {
                 3
               </div>
               <h3 className="text-xl font-bold mb-2">Assessment</h3>
-              <p className="text-gray-600">Student assessment and parent interview</p>
+              <p className="text-gray-700 font-medium">Student assessment and parent interview</p>
             </div>
 
             {/* Step 4 */}
@@ -91,7 +91,7 @@ export default function Admissions() {
                 4
               </div>
               <h3 className="text-xl font-bold mb-2">Enrollment</h3>
-              <p className="text-gray-600">Receive decision and complete enrollment</p>
+              <p className="text-gray-700 font-medium">Receive decision and complete enrollment</p>
             </div>
           </div>
         </div>
@@ -143,9 +143,9 @@ export default function Admissions() {
               <h3 className="text-2xl font-bold mb-4 text-center">Kindergarten</h3>
               <div className="text-center mb-6">
                 <span className="text-4xl font-bold text-blue-600">$5,000</span>
-                <span className="text-gray-600">/year</span>
+                <span className="text-gray-700 font-medium">/year</span>
               </div>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-700 font-medium">
                 <li>✓ Full day program</li>
                 <li>✓ Meals included</li>
                 <li>✓ Learning materials</li>
@@ -161,9 +161,9 @@ export default function Admissions() {
               <h3 className="text-2xl font-bold mb-4 text-center">Elementary</h3>
               <div className="text-center mb-6">
                 <span className="text-4xl font-bold text-blue-600">$8,000</span>
-                <span className="text-gray-600">/year</span>
+                <span className="text-gray-700 font-medium">/year</span>
               </div>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-700 font-medium">
                 <li>✓ Core curriculum</li>
                 <li>✓ Lunch program</li>
                 <li>✓ Books & supplies</li>
@@ -177,9 +177,9 @@ export default function Admissions() {
               <h3 className="text-2xl font-bold mb-4 text-center">High School</h3>
               <div className="text-center mb-6">
                 <span className="text-4xl font-bold text-blue-600">$12,000</span>
-                <span className="text-gray-600">/year</span>
+                <span className="text-gray-700 font-medium">/year</span>
               </div>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-700 font-medium">
                 <li>✓ Advanced curriculum</li>
                 <li>✓ Lab facilities</li>
                 <li>✓ College counseling</li>
@@ -189,7 +189,7 @@ export default function Admissions() {
             </div>
           </div>
 
-          <p className="text-center text-gray-600 mt-8">
+          <p className="text-center text-gray-700 font-medium mt-8">
             * Scholarships and payment plans available. Contact us for more information.
           </p>
         </div>
@@ -199,7 +199,7 @@ export default function Admissions() {
       <section className="py-16 bg-blue-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold mb-4 text-center">Submit Inquiry</h2>
-          <p className="text-center text-gray-600 mb-8">
+          <p className="text-center text-gray-700 font-medium mb-8">
             Interested in enrolling? Fill out the form below and we'll get back to you soon.
           </p>
 

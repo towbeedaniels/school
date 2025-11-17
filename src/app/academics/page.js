@@ -84,7 +84,7 @@ export default function Academics() {
                 </div>
                 
                 <div className="p-6">
-                  <p className="text-gray-600 mb-4">{program.description}</p>
+                  <p className="text-gray-700 font-medium mb-4">{program.description}</p>
                   
                   <h4 className="font-bold mb-3">Core Subjects:</h4>
                   <div className="flex flex-wrap gap-2">
@@ -113,7 +113,7 @@ export default function Academics() {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="text-4xl mb-4">📚</div>
               <h3 className="text-xl font-bold mb-3">STEM Focus</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-700 font-medium">
                 Comprehensive Science, Technology, Engineering, and Mathematics 
                 programs with hands-on learning experiences.
               </p>
@@ -122,7 +122,7 @@ export default function Academics() {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="text-4xl mb-4">🌍</div>
               <h3 className="text-xl font-bold mb-3">Global Perspective</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-700 font-medium">
                 Foreign language instruction and cultural studies to prepare 
                 students for an interconnected world.
               </p>
@@ -131,7 +131,7 @@ export default function Academics() {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="text-4xl mb-4">🎨</div>
               <h3 className="text-xl font-bold mb-3">Arts Integration</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-700 font-medium">
                 Visual arts, music, drama, and dance programs to foster 
                 creativity and self-expression.
               </p>
@@ -140,7 +140,7 @@ export default function Academics() {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="text-4xl mb-4">⚽</div>
               <h3 className="text-xl font-bold mb-3">Physical Education</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-700 font-medium">
                 Daily PE classes and competitive sports programs promoting 
                 health, teamwork, and sportsmanship.
               </p>
@@ -149,7 +149,7 @@ export default function Academics() {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="text-4xl mb-4">💡</div>
               <h3 className="text-xl font-bold mb-3">Critical Thinking</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-700 font-medium">
                 Project-based learning and problem-solving activities that 
                 develop analytical and reasoning skills.
               </p>
@@ -158,7 +158,7 @@ export default function Academics() {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="text-4xl mb-4">🤝</div>
               <h3 className="text-xl font-bold mb-3">Character Education</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-700 font-medium">
                 Values-based curriculum promoting integrity, respect, 
                 responsibility, and empathy.
               </p>
@@ -181,7 +181,7 @@ export default function Academics() {
                     <Icon className="w-10 h-10 text-blue-600" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">{facility.name}</h3>
-                  <p className="text-gray-600">{facility.description}</p>
+                  <p className="text-gray-700 font-medium">{facility.description}</p>
                 </div>
               )
             })}
@@ -238,7 +238,7 @@ export default function Academics() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-8">Academic Calendar 2024-2025</h2>
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-700 font-medium mb-8">
             Download our complete academic calendar to stay informed about important dates, 
             holidays, and school events throughout the year.
           </p>
